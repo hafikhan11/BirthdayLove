@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pages base path (remove this for Vercel)
-  basePath: process.env.GITHUB_PAGES === "true" ? "/Love" : "",
+  basePath: "/BirthdayLove",
+  trailingSlash: true,
 };
 
 export default nextConfig;
